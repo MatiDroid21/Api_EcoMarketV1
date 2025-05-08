@@ -9,6 +9,7 @@ import jakarta.persistence.Table;
 import lombok.Data;
 import lombok.*;
 
+//clase productos
 @Entity
 @Table(name = "PRODUCTOS")
 @Data
