@@ -10,6 +10,7 @@ import lombok.Data;
 import lombok.*;
 
 //clase productos
+// esto es un comentario de prueba
 @Entity
 @Table(name = "PRODUCTOS")
 @Data
