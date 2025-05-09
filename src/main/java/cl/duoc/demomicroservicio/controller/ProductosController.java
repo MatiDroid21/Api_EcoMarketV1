@@ -94,7 +94,7 @@ public class ProductosController {
             }
             productosEliminar.setActivo(false);
             productosServices.guardar(productosEliminar);
-            return ResponseEntity.ok("Producto eliminado correctamente");
+            return ResponseEntity.ok("Producto eliminado correctamente o se quedo sin stock");
             
         }catch(Exception e){
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error al eliminar el producto: " + e.getMessage());
